@@ -10,16 +10,17 @@ This repository contains hands-on practice exercises for learning Go programming
 
 ```
 learn-go/
-├── section2_1/              # Basic types and variables
-├── section2_2-3/            # Variable types & file operations
-├── section4/                # Control structures (pointers, if/else, loops)
-├── section5_1/              # Structs basics
-├── section5_2/              # Working with structs
-├── section5_3-6_1/          # Interfaces & packages
-├── section6_2/              # Error handling
-├── section7_1/              # Slices and maps
-├── section7_2/              # List operations
-├── section8_1/              # Functions as values, recursion, anonymous functions
-├── section9_1/              # Concurrency & goroutines
-└── section10_1/             # Goroutines & channel communication
+├── 02-go-essentials_investment-calculator/       # Go Essentials: variables, types, user input
+├── 02-03-go-essentials-and-packages_bank/        # Go Essentials + Working with Packages: files, errors, third-party package
+├── 04-understanding-pointers/                    # Understanding Pointers
+├── 05-structs-and-custom-types_user/             # Structs & Custom Types: structs, methods, embedding
+├── 05-structs-and-custom-types_custom-type/      # Structs & Custom Types: custom types with methods
+├── 05-06-structs-and-interfaces_note-todo/       # Structs & Interfaces: note/todo practice project
+├── 06-interfaces-and-generics/                   # Interfaces & Generic Code: generics
+├── 07-arrays-slices-and-maps/                    # Arrays, Slices & Maps
+├── 07-arrays-slices-and-maps_exercise/           # Arrays, Slices & Maps: exercise
+├── 08-functions-deep-dive/                       # Functions: Deep Dive
+├── 09-practice-project-price-calculator/         # Practice Project: Price Calculator
+├── 10-concurrency/                               # Concurrency: goroutines & channels
+└── 11-course-project-rest-api/                   # Course Project: REST API
 ```
