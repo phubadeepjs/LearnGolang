@@ -1,0 +1,25 @@
+info:
+  name: POST events
+  type: http
+  seq: 2
+
+http:
+  method: POST
+  url: localhost:8080/events
+  body:
+    type: json
+    data: |-
+      {
+        "name": "A mock name",
+        "description": "A mock description",
+        "location": "A mock location",
+        "dateTime": "2026-01-01T15:30:00.00Z"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
