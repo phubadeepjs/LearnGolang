@@ -8,7 +8,7 @@ This repository contains hands-on practice exercises for learning Go programming
 
 ## 📂 Repository Structure
 
-```
+``` text
 learn-go/
 ├── 02-go-essentials_investment-calculator/       # Go Essentials: variables, types, user input
 ├── 02-03-go-essentials-and-packages_bank/        # Go Essentials + Working with Packages: files, errors, third-party package
